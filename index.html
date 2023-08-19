@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css.css"/>
+  <title>Roll the Dices</title>
+</head>
+<body>
+  <div class="game-container">
+    <div class="player">
+      <input type="text" id="player1Name" placeholder="Player 1 Name" />
+      <button id="rollButton" onclick="rollDices()">Roll the Dices</button>
+    </div>
+    <div class="player">
+      <input type="text" id="player2Name" placeholder="Player 2 Name" />
+    </div>
+    <div class="result" id="result"></div>
+    <div class="timer" id="timer"></div>
+  </div>
+  <script src="javascript.js"></script>
+  <audio id="bellSound" src="bell.mp3"></audio>
+</body>
+</html>
